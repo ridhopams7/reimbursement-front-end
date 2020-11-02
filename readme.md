@@ -65,7 +65,7 @@ Run `npm run build:env` to build the project. The build artifacts will be stored
 # build for development with minification
 $ npm run build:development
 
-# build for stagging with minification
+# build for uat with minification
 $ npm run build:test
 
 # build for production with minification
