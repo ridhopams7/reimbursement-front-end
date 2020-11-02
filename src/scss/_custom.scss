@@ -1,0 +1,62 @@
+// Here you can add other styles
+@import '~react-select/dist/react-select.css';
+@import '~react-virtualized/styles.css';
+@import '~react-virtualized-select/styles.css';
+
+@import "../modules/report/scss/Report.scss";
+@import "../modules//voucher/scss/voucher.scss";
+@import "../modules/master/scss/master.scss";
+@import "../modules/auth/scss/Auth.scss";
+@import "../modules/automatic-journal/scss/AutomaticJournal.scss";
+
+.form-tight-space {
+  padding: 0px;
+  font-size: 13px;
+}
+
+.remove-date-arrow {
+  &::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+
+.no-select {
+  // make html element un-highlight-able
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.tooltip-react-container {
+  max-width: 300px !important;
+  z-index: 99999999 !important;
+}
+
+.mark-required {
+  color: red;
+  font-size: 10px;
+}
+
+.button-action-list{
+  width: 40px;
+  height: 36px;
+}
+
+.checkbox-list{
+  position: inherit;
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.modal-menu{
+  max-width: 600px;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+

@@ -1,0 +1,273 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import '~@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+.Select-menu-outer {
+ display: block;
+ position: relative;
+ z-index: 999 !important;
+ width: 300px;
+ margin-bottom: 7px;
+}
+
+.Select.is-searchable.is-open > .Select-control {
+  cursor: text;
+  margin-top: 5px;
+}
+
+.tableodd{
+   &:nth-child(odd){
+    background-color: #ccc;
+  }
+}
+
+.table th {
+  color: white;
+  background-color: #778684;
+}
+
+.sidebar .nav-link:hover{
+  color: #fff;
+  background-color: #0DDBBC !important;
+}
+
+.nav-icon{
+  color:  #F9A932 !important;
+}
+
+.page-link {
+  color: #0DDBBC;
+}
+
+.page-link:hover {
+  color: #0DDBBC;
+}
+
+.page-item.active .page-link{
+  background-color: #0DDBBC;
+  border-color: #0DDBBC;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #0DDBBC ;
+  border-color: #0DDBBC ;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #0DDBBC ;
+  border-color: #0DDBBC ;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3F75FF ;
+  border-color: #3F75FF;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #3F75FF;
+  border-color: #3F75FF;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #f92e2e;
+  border-color: #f92e2e;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #f92e2e;
+  border-color: #f92e2e;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #F9A932;
+}
+
+a {
+  color: #0DDBBC ;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.breadcrumb {
+  background-color: #3a4248;
+}
+
+.breadcrumb-item.active {
+  color: white;
+  font-weight: bold;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #acb0b3;
+}
+
+.table-sm th, .table-sm td {
+  padding: 0.5rem;
+}
+
+// =============== padding start ===============
+.pad-0 {
+  padding: 0px;
+}
+
+.pad-6 {
+  padding: 6px;
+}
+
+.pad-top-3 {
+  padding-top: 3px;
+}
+
+.pad-bot-3 {
+  padding-bottom: 3px;
+}
+
+.pad-3-13 {
+  padding: 3px 13px;
+}
+
+// =============== width start ===============
+.width-50-percent {
+  width: 50%;
+}
+
+.width-100-percent {
+  width: 100%;
+}
+
+.min-width-200 {
+  min-width: 200px;
+}
+
+// =============== float start ===============
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+// =============== align self start ===============
+.align-self-flex-end {
+  align-self: flex-end;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-flex-start {
+  align-self: flex-start;
+}
+
+// =============== align content start ===============
+.align-content-center {
+  align-content: center;
+}
+
+// =============== font size start ===============
+.font-size-13 {
+  font-size: 13px;
+}
+.font-size-16 {
+  font-size: 16px;
+}
+
+// =============== height start ===============
+.height-30 {
+  height: 30px;
+}
+
+// =============== background color start ===============
+.bgc-light-gray {
+  background-color: #d7d8d9;
+}
+
+.bgc-white {
+  background-color: white;
+}
+
+.back-col-dis {
+  background-color: #cccccc !important;
+}
+
+// =============== color start ===============
+.color-white {
+  color: white;
+}
+
+// =============== margin start ===============
+.mar-top-5 {
+  margin-top: 5px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mar-bot-15 {
+  margin-bottom: 15px;
+}
+
+.mar-bot-10 {
+  margin-bottom: 10px;
+}
+
+.mar-bot-5 {
+  margin-bottom: 5px;
+}
+
+.mar-bot-8 {
+  margin-bottom: 8px;
+}
+
+.mar-top-8 {
+  margin-top: 8px;
+}
+
+// =============== cursor start ===============
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// =============== text start ===============
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+// =============== vertical align ===============
+
+.vertical-align-middle-imp {
+  vertical-align: middle !important;
+}
+
+.ver-align-mid {
+  vertical-align: middle !important;
+}
